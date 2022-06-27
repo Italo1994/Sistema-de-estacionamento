@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sistema de Estacionamento</title>
+
+        <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header style="text-align: center; margin-bottom: 30px; color: orange;">
+                <h1>Sig Parking</h1>
+            </header>
+            <form>
+                <input id="nome" type="text" id="nome" placeholder="Digite o nome do veículo" />
+                <input id="placa" type="text" id="placa" placeholder="Digite a placa do veículo" />
+    
+                <button id="cadastrar">Cadastrar</button>
+            </form>
+    
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Placa</th>
+                        <th>Entrada</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="patio">
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
